@@ -1,0 +1,122 @@
+/**body style**/
+
+body {
+    background: url('road-2517227_1920.jpg') center center fixed;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/**div container style**/
+
+.container {
+    margin-top: 10px;
+}
+
+
+/**form style**/
+
+form {
+    padding: 10px;
+    align-content: center;
+    margin-top: 30px;
+    margin-left: 15px;
+    color: #000;
+}
+
+#searchForm {
+    color: #FFF;
+}
+
+
+/**div with map id style**/
+
+#map {
+    width: 100%;
+    height: 300px;
+    border: 5px solid #FFF;
+    border-radius: 2px;
+}
+
+
+/**div with result id style**/
+
+#result {
+    margin-top: 5px;
+}
+
+
+/**div with result class style**/
+
+.result {
+    background-color: #FFF;
+    padding: 20px;
+}
+
+
+/**checkbox style**/
+
+checkbox {
+    color: #000;
+}
+
+
+/**h1 & p tag style**/
+
+.header h1,
+p {
+    color: #FFF;
+    font-weight: bold;
+}
+
+
+/**table style**/
+
+.preview {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+img#preview {
+    max-width: 100%;
+}
+
+
+/**loader style**/
+
+#loader {
+    display: none;
+}
+
+
+/**div body style**/
+
+.trip {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 560px;
+    height: 100px;
+    margin-top: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #000;
+}
+
+.trip p {
+    color: #000;
+    text-align: left;
+    padding: 15px;
+    position: absolute;
+}
+
+.trip p small {
+    padding: 10px;
+}
+
+#profileImg {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
